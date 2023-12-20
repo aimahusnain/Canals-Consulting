@@ -69,41 +69,43 @@ const HomeBanner = () => {
         transition={{ duration: 0.5 }}
       >
         <div className="p-0 mb-16">
-        <div className="flex sm:flex-row flex-col !mx-0 h-full">
-          <div className="sm:pt-0 pt-20 p-0 overflow-hidden sm:items-end items-start sm:justify-end justify-end flex flex-col sm:h-screen h-[450px] md:w-[50%] w-full bg-boo-700">
+          <div className="flex sm:flex-row flex-col !mx-0 h-full">
+            <div className="p-0 overflow-hidden sm:items-end items-start sm:justify-between justify-end flex flex-col sm:h-screen h-[450px] md:w-[50%] w-full bg-boo-700">
               {" "}
               <Carousel
-                className="h-full w-fu flex items-end justify-stretch"
+                className="max-h-screen bg-slate-600 overflow-hidden flex items-end justify-stretch"
                 autoPlay
                 infiniteLoop
                 showThumbs={false}
               >
-                <div className="h-full">
+                <div className="!max-h-full">
                   <Image
-                  
-                    width={400}
+                    width={600}
+                    loading="eager"
                     height={842}
-                    className="m-0 p-0 mt-4 object-cover object-top w-full h-full"
+                    className="m-0 p-0 object-cover object-top w-screen h-screen"
                     src="/static/img/1.png"
-                    alt=""
+                    alt="Man Image 1"
                   />
                 </div>
-                <div className="h-full">
+                <div className="max-h-full">
                   <Image
-                    width={400}
+                    width={600}
+                    loading="eager"
                     height={842}
-                    className="m-0 p-0 object-cover object-top w-full h-full"
+                    className="m-0 p-0 object-cover object-top w-screen h-screen"
                     src="/static/img/2.png"
-                    alt=""
+                    alt="Man Image 2"
                   />
                 </div>
-                <div className="h-full">
+                <div className="max-h-full">
                   <Image
-                    width={400}
+                    width={600}
+                    loading="eager"
                     height={1000}
-                    className="m-0 p-0 object-cover object-top w-full h-full"
+                    className="m-0 p-0 object-cover object-top w-screen h-screen"
                     src="/static/img/3.png"
-                    alt=""
+                    alt="Man Image 3"
                   />
                 </div>
                 {/* Add more slides as needed */}
@@ -123,39 +125,39 @@ const HomeBanner = () => {
                       <span className="text-transparent bg-clip-text bg-gradient-to-r from-boo-400 to-pinky-500">
                         Welcome to
                       </span>
-                      </h1>
-                     
-                      <TypeAnimation
+                    </h1>
+
+                    <TypeAnimation
                       className="sm:text-5xl lg:text-[46px] font-bold text-white dark:text-black"
-                        sequence={[
-                          "Canals Consulting",
-                          2000,
-                          "Financial Modeling",
-                          1000,
-                          "Business Planning",
-                          1000,
-                          "Excel, Macros, VBA",
-                          1000,
-                          "Google Sheets Customization",
-                          1000,
-                          "Financial Statement Analysis",
-                          1000,
-                          "Excel Database Cleaning",
-                          1000,
-                          "Accounting",
-                          1000,
-                          "Bookkeeping",
-                          1000,
-                          "Data Entry",
-                          1000,
-                          "Virtual Assistant",
-                          1000,
-                        ]}
-                        wrapper="span"
-                        speed={50}
-                        repeat={Infinity}
-                      />
-                    
+                      sequence={[
+                        "Canals Consulting",
+                        2000,
+                        "Financial Modeling",
+                        1000,
+                        "Business Planning",
+                        1000,
+                        "Excel, Macros, VBA",
+                        1000,
+                        "Google Sheets Customization",
+                        1000,
+                        "Financial Statement Analysis",
+                        1000,
+                        "Excel Database Cleaning",
+                        1000,
+                        "Accounting",
+                        1000,
+                        "Bookkeeping",
+                        1000,
+                        "Data Entry",
+                        1000,
+                        "Virtual Assistant",
+                        1000,
+                      ]}
+                      wrapper="span"
+                      speed={50}
+                      repeat={Infinity}
+                    />
+
                     <div>
                       <p
                         onClick={() => changeNav("portfolio", false)}

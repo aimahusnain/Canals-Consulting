@@ -9,7 +9,6 @@ import { useContext } from "react";
 import { AlexioContext } from "../Context";
 import siteMetadata from "../utils/siteMetaData";
 import ServicesContainer from "./ServicesContainer";
-import Slider from "./Slider";
 
 const Services = () => {
   const features = [
@@ -62,77 +61,66 @@ const Services = () => {
               >
                 <AccordionItem value="item-1">
                   <AccordionTrigger className="text-sm px-5 text-left hover:no-underline p-3 outline-none">
-                    Dynamic and Static Web Development
+                  Financial Modeling & Accounting
                   </AccordionTrigger>
                   <AccordionContent className="text-white/40 dark:text-dark/80">
-                    <Slider features={features} />
+                  Harness the power of precise financial modeling and accounting services. From comprehensive bookkeeping to intricate financial modeling and Excel automation, we cover it all. Our expertise extends to tax planning and preparation, ensuring your financial matters are in capable hands.
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="item-2">
                   <AccordionTrigger className="text-sm px-5 hover:no-underline p-3 outline-none">
-                    Full Stack Development
+                  Business Planning
                   </AccordionTrigger>
                   <AccordionContent className="text-white/40 dark:text-dark/80">
-                    Elevate your project with end-to-end solutions. Our full
-                    stack development expertise covers both frontend and backend
-                    technologies, providing a cohesive and comprehensive web
-                    application experience.
+                  Embark on your business journey with a solid roadmap. Our business planning services encompass market research, industry analysis, financial projections, marketing strategies, and executive summaries. Whether you're a startup or an established business, we craft investor-ready business plans that resonate with your vision.
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="item-3">
                   <AccordionTrigger className="text-sm px-5 hover:no-underline p-3 outline-none">
-                    Blog Development
+                  Excel, Macros, VBA
                   </AccordionTrigger>
                   <AccordionContent className="text-white/50 dark:text-dark/80">
-                    Share your thoughts and stories with the world through a
-                    custom-tailored blog that suits your style and vision.
+                  Unlock the potential of Excel with our expert programming services. Leverage our skills in task automatization, formula optimization, and data manipulation. From Pivot Tables to advanced VBA programming, we can turn your data into actionable insights.
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="item-4">
                   <AccordionTrigger className="text-sm px-5 hover:no-underline p-3 outline-none">
-                    Ecommerce Websites
+                  Google Sheets Customization:
                   </AccordionTrigger>
 
                   <AccordionContent className="text-white/50 dark:text-dark/80">
-                    Open up new avenues for your business with an online store
-                    that is not only visually appealing but also optimized for
-                    seamless transactions.
+                  Navigate the world of Google Sheets with ease. We offer assistance in sheet protection, advanced filters, complex formulas, beautiful charts, and customized reports. Our services cover data manipulation, custom invoice templates, and user forms to enhance your Google Sheets experience.
+
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="item-5">
                   <AccordionTrigger className="text-sm px-5 hover:no-underline p-3 outline-none">
-                    SaaS Applications
+                  Financial Modeling
                   </AccordionTrigger>
                   <AccordionContent className="text-white/50 dark:text-dark/80">
-                    Take your software ideas to the next level with our SaaS
-                    development services, built to scale and adapt to your
-                    growing user base.
+                  Empower your business with a robust financial model. Our services include detailed assumptions, monthly and annual projections, ratios, break-even analysis, DCF valuation, and scenarios and sensitivity analysis. Let us create a financial model that serves as a foundation for your business success.
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="item-6">
                   <AccordionTrigger className="text-sm px-5 hover:no-underline p-3 outline-none">
-                    Affiliate Websites
+                  Excel Database Cleaning
                   </AccordionTrigger>
                   <AccordionContent className="text-white/50 dark:text-dark/80">
-                    Monetize your platform with affiliate marketing strategies,
-                    implemented seamlessly into a website designed for
-                    conversions.
+                  Ensure your data is error-free with our Excel database cleaning services. We provide proper formatting, deduplication, data validation, and categorization, delivering a clean database for your business needs.
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="item-7">
                   <AccordionTrigger className="text-sm px-5 hover:no-underline p-3 outline-none">
-                    Portfolio Websites
+                  QuickBooks, Xero, Wave Bookkeeping
                   </AccordionTrigger>
                   <AccordionContent className="text-white/50 dark:text-dark/80">
-                    Showcase your work in style. Our portfolio websites are
-                    crafted to reflect your unique identity and leave a lasting
-                    impression.
+                  Navigate the complexities of bookkeeping with our certified expertise. Whether you need cleanup, setup, or ongoing monthly bookkeeping services, we're equipped to handle QuickBooks, Xero, and Wave platforms with precision.
                   </AccordionContent>
                 </AccordionItem>
 
