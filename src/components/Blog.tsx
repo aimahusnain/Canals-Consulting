@@ -24,7 +24,7 @@ const Blog = () => {
           <div className="text-light px-16 text-center justify-center items-center py-20 bg-boo-700">
             <div className="flex gap-5 flex-col">
               <h4 className="text-5xl font-bold tracking-wider capitalize">
-                The WebKin Solutions Blog
+                The Canals Consulting Blog
               </h4>
               <p>Unlock the Power of Next.js Websites and SEO Strategies</p>
             </div>
