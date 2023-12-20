@@ -35,23 +35,7 @@ const insights = [
 ];
 
 const HomeBanner = () => {
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-    ],
-  };
+  
   const { changeNav, toggle, nav } = useContext(AlexioContext);
   const activePageClass = (name: any) => (name === nav ? "" : "page--inactive");
 
@@ -70,7 +54,7 @@ const HomeBanner = () => {
       >
         <div className="p-0 mb-16">
           <div className="flex sm:flex-row flex-col !mx-0 h-full">
-            <div className="p-0 overflow-hidden sm:items-end items-start sm:justify-between justify-end flex flex-col sm:h-screen h-[450px] md:w-[50%] w-full bg-boo-700">
+            <div className="p-0 overflow-hidden sm:items-end items-start sm:justify-between justify-end flex flex-col sm:h-screen h-[450px] md:w-[50%] w-full bg-gradient-to-tr from-boo-700 to-boo-400">
               {" "}
               <Carousel
                 className="sm:pt-0 pt-12 h-full overflow-hidden flex items-start justify-center"
@@ -122,14 +106,14 @@ const HomeBanner = () => {
                 <div />
                 <section>
                   <div className="w-full place-self-center text-center flex flex-col gap-4 sm:text-left justify-self-center">
-                    <h1 className="text-white dark:text-black mb-4 text-2xl sm:text-5xl lg:text-6xl font-extrabold">
+                    <h1 className="text-white dark:text-black text-2xl font-sans sm:text-5xl lg:text-6xl font-bold">
                       <span className="text-transparent bg-clip-text bg-gradient-to-r from-boo-400 to-pinky-500">
                         Welcome to
                       </span>
                     </h1>
 
                     <TypeAnimation
-                      className="sm:text-5xl lg:text-[46px] font-bold text-white dark:text-black"
+                      className="sm:text-5xl text-3xl font-bold mb-4 text-white dark:text-black"
                       sequence={[
                         "Canals Consulting",
                         2000,
@@ -190,17 +174,5 @@ const HomeBanner = () => {
     </div>
   );
 };
-
-const NextArrow = ({ onClick }: { onClick?: () => void }) => (
-  <div className="slick-arrow slick-next" onClick={onClick}>
-    Next
-  </div>
-);
-
-const PrevArrow = ({ onClick }: { onClick?: () => void }) => (
-  <div className="slick-arrow slick-prev" onClick={onClick}>
-    Prev
-  </div>
-);
 
 export default HomeBanner;

@@ -1,8 +1,6 @@
+import Image from "next/image";
 import { useContext } from "react";
 import { AlexioContext } from "../Context";
-import ContactShort from "./ContactShort";
-import TypingAnimation from "./TypingAnimation";
-import Image from "next/image";
 
 const SectionContainer = ({
   extraClass,

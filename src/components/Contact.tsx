@@ -1,6 +1,5 @@
 "use client";
 
-
 {/* <div className="flex w-full sm:gap-40 gap-10 sm:flex-row flex-col">
               <p className="m-0 text-white dark:text-dark p-0 flex flex-row items-center gap-3">
                 <IoMdMail />
@@ -284,10 +283,10 @@ const Contact = () => {
       name={"contact"}
       title="CONTACT US"
       subTitle={"GET IN TOUCH"}
-      leftImage="/Contact.jpg"
+      leftImage="/static/img/Contact.jpg"
       leftImageTitle={"About Me"}
     >
-      <p className="text-white/60 dark:text-dark/70 text-lg tracking-widest">
+      <p className="text-white/60 dark:text-dark/70 text-md tracking-widest">
         Thank you for reaching out! We're here to assist you. Please feel free
         to contact us using the information below:
       </p>
@@ -295,11 +294,142 @@ const Contact = () => {
       <div>
         <div className="w-full flex justify-center p-0 h-fit items-center text-left">
           <div className="flex flex-col sm:w-full align-middle w-fit text-center gap-8  sm:justify-between">
-            {/* Add icons here! */}
+          <div className="flex w-full sm:gap-40 gap-10 sm:flex-row flex-col">
+              <p className="m-0 text-white dark:text-dark p-0 flex flex-row items-center gap-3">
+                <IoMdMail />
+                DevKinSolutions@proton.me
+                <br />
+              </p>
+
+              <p className="m-0 text-white dark:text-dark p-0 flex flex-row items-center gap-3">
+                <FaPhoneAlt fill="white" className="dark:fill-black" />
+                +92 3074241757
+              </p>
+            </div>
+
+            <ul className="flex flex-row gap-2">
+              <li className="transition-all duration-500 hover:bg-boo-700  p-2 cursor-pointer rounded-full">
+                <Link
+                  href="https://www.facebook.com/"
+                  aria-label="Facebook"
+                  target="_blank"
+                >
+                  <Facebook
+                    className="fill-white dark:fill-black"
+                    stroke="0"
+                    size={15}
+                  />
+                </Link>
+              </li>
+
+              <li className="transition-all duration-500 hover:bg-boo-700 p-2 cursor-pointer rounded-full">
+                <Link
+                  href="https://twitter.com/"
+                  aria-label="Twitter"
+                  target="_blank"
+                >
+                  <BsTwitterX
+                    className="fill-white dark:fill-black"
+                    stroke="0"
+                    size={15}
+                  />
+                </Link>
+              </li>
+
+              <li className="transition-all duration-500 hover:bg-boo-700 p-2 cursor-pointer rounded-full">
+                <Link
+                  href="https://instagram.com/"
+                  target="_blank"
+                  aria-label="Instagram"
+                >
+                  <Instagram
+                    className="stroke-white dark:stroke-dark"
+                    size={15}
+                  />
+                </Link>
+              </li>
+
+              <li className="transition-all duration-500 hover:bg-boo-700 p-2 cursor-pointer rounded-full">
+                <Link
+                  href="https://linkedin.com/"
+                  target="_blank"
+                  aria-label="Linkedin"
+                >
+                  <FaLinkedinIn
+                    className="fill-white dark:fill-black"
+                    stroke="0"
+                    size={15}
+                  />
+                </Link>
+              </li>
+
+              <li className="transition-all duration-500 hover:bg-boo-700 p-2 cursor-pointer rounded-full">
+                <Link
+                  href="https://youtube.com/"
+                  aria-label="Youtube"
+                  target="_blank"
+                >
+                  <TbBrandYoutube
+                    className="stroke-white dark:stroke-black"
+                    size={15}
+                  />
+                </Link>
+              </li>
+
+              <li className="transition-all duration-500 hover:bg-boo-700 p-2 cursor-pointer rounded-full">
+                <Link
+                  href="https://github.com/"
+                  aria-label="Github"
+                  target="_blank"
+                >
+                  <FiGithub
+                    className="stroke-white dark:stroke-dark"
+                    size={15}
+                  />
+                </Link>
+              </li>
+
+              <li className="transition-all duration-500 hover:bg-boo-700 p-2 cursor-pointer rounded-full">
+                <Link
+                  href="https://hashnode.com/"
+                  aria-label="Hashnode"
+                  target="_blank"
+                >
+                  <FaHashnode
+                    className="fill-white stroke-white dark:stroke-dark
+dark:fill-dark"
+                    size={15}
+                  />
+                </Link>
+              </li>
+
+              <li className="transition-all duration-500 hover:bg-boo-700 -700 p-2 cursor-pointer rounded-full">
+                <Link
+                  href="https://mastodon.social/"
+                  aria-label="Mastodon"
+                  target="_blank"
+                >
+                  <BsMastodon className="fill-white dark:fill-black" size={15} />
+                </Link>
+              </li>
+
+              <li className="transition-all duration-500 hover:bg-boo-700  p-2 cursor-pointer rounded-full">
+                <Link
+                  href="https://stackoverflow.com/"
+                  aria-label="StackOverFlow"
+                  target="_blank"
+                >
+                  <IoLogoStackoverflow
+                    className="fill-white dark:fill-black"
+                    size={15}
+                  />
+                </Link>
+              </li>
+            </ul>
           </div>
         </div>
         <br />
-        <p className="text-white/60 dark:text-dark/70 tracking-widest text-lg">
+        <p className="text-white/60 dark:text-dark/70 tracking-widest text-md">
           Have a specific question or request? Feel free to use the form below
           to send us a direct message:
         </p>
