@@ -127,7 +127,7 @@ const Services = () => {
                   Virtual Assistant
                   </AccordionTrigger>
                   <AccordionContent className="text-white/50 dark:text-dark/80">
-                  Simplify your financial record-keeping with our expertise in QuickBooks, Xero, and Wave bookkeeping services. Stay compliant, reduce errors, and have confidence in the accuracy of your financial records.
+                  Enhance productivity and manage your workload effectively with our virtual assistant services. From administrative tasks to project management, our virtual assistants are here to support your business needs.
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
@@ -135,25 +135,8 @@ const Services = () => {
           </div>
 
           <div>
-            <h3 className="text-2xl text-boo-700">Let's Build Something Extraordinary</h3>
             <p className="text-white/50 dark:text-dark/80">
-              No matter the scope or complexity of your project, our React and
-              Next.js experts are ready to take on the challenge. Collaborate
-              with us to transform your vision into a stunning, functional, and
-              future-proof web solution.
-            </p>
-            <p>
-              Ready to get started?{" "}
-              <span>
-                <p className=" text-blue-800 hover:text-blue-700 underline inline-block cursor-pointer" onClick={() => changeNav("contact", false)}>
-                  Contact
-                </p>
-              </span>{" "}
-              Us and let's embark on this exciting journey together!
-            </p>
-            <p className="text-white/50">
-              Feel free to customize the content based on your specific
-              offerings and brand voice.
+            At Canals Consulting, we are committed to delivering excellence in every service we provide. Our team of seasoned professionals is dedicated to understanding your unique challenges and delivering solutions that propel your business forward. Contact us today to explore how our services can transform your business. Your success is our priority!
             </p>
           </div>
         </div>

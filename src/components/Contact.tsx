@@ -284,7 +284,7 @@ const Contact = () => {
       name={"contact"}
       title="CONTACT US"
       subTitle={"GET IN TOUCH"}
-      leftImage="/static/img/Eman Contact2.png"
+      leftImage="/Contact.jpg"
       leftImageTitle={"About Me"}
     >
       <p className="text-white/60 dark:text-dark/70 text-lg tracking-widest">
