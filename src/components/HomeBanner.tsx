@@ -73,7 +73,7 @@ const HomeBanner = () => {
             <div className="p-0 overflow-hidden sm:items-end items-start sm:justify-between justify-end flex flex-col sm:h-screen h-[450px] md:w-[50%] w-full bg-boo-700">
               {" "}
               <Carousel
-                className="max-h-screen bg-slate-600 overflow-hidden flex items-end justify-stretch"
+                className="max-h-screen overflow-hidden flex items-end justify-stretch"
                 autoPlay
                 infiniteLoop
                 showThumbs={false}
